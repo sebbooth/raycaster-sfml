@@ -114,7 +114,7 @@ int main()
     
 
     sf::Font font;
-    font.loadFromFile("font.ttf");
+    font.loadFromFile("fonts/font.ttf");
     sf::Text text;
     text.setFont(font);
     text.setCharacterSize(24);
@@ -123,7 +123,7 @@ int main()
 
 
     sf::Texture texture;
-    texture.loadFromFile("sprite.png");
+    texture.loadFromFile("images/sprite.png");
 
     
 

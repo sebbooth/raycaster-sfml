@@ -97,8 +97,8 @@ void Player::RayCast(sf::RenderWindow& window, Map& map, float mapScale)	//TODO:
 	sf::Texture wallTexture;
 	sf::Texture wallTexture1;
 
-	wallTexture.loadFromFile("wall2.png");
-	wallTexture1.loadFromFile("wall3.png");
+	wallTexture.loadFromFile("images/wall2.png");
+	wallTexture1.loadFromFile("images/wall3.png");
 
 	for (rayNum = 0; rayNum < sx; rayNum++)
 	{
